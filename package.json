@@ -1,9 +1,8 @@
 {
   "name": "notification-page",
   "private": true,
-  "version": "0.0.0",
+  "version": "0.0.1",
   "homepage": "https://nirmalroyalrich.github.io/notification-page",
-  "type": "module",
   "scripts": {
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
