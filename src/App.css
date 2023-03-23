@@ -1,0 +1,153 @@
+#root {
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 2rem;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Poppins", sans-serif;
+}
+
+.container {
+    max-height: fit-content;
+    max-width: 70vw;
+    border-radius: 1rem;
+
+    padding: 1rem 2rem;
+
+    background-color: white;
+
+    box-shadow: 8px 8px 16px rgba(0, 0, 0, 0.2);
+
+    border: 1px solid red;
+}
+
+header {
+    padding: 1rem 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.title > h1 {
+    font-size: 2rem;
+}
+
+.badge {
+    background-color: #0B3576;
+    padding: 0.5rem 0.75rem;
+    border-radius: 0.2rem;
+    color: white;
+}
+
+.title {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.notifications-container {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.notification {
+    display: flex;
+    align-items: center;
+    
+    padding: 1rem;
+    gap: 1rem;
+
+    border-radius: 0.5rem;
+
+    max-height: fit-content;
+
+
+    /* border: 1px solid green; */
+}
+
+.notification > img {
+    width: 3rem;
+}
+
+.post {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    /* border: 1px solid orange; */
+
+}
+
+.post-content {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+
+    /* border: 1px solid yellow; */
+
+}
+
+.post-content > a > img {
+    width: 3rem;
+
+}
+
+.post-activity {
+    width: 100%;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: self-start;
+
+    /* border: 1px solid red; */
+}
+
+.post-text {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.4rem;
+
+    flex-wrap: wrap;
+
+    
+    /* border: 1px solid red; */
+}
+
+.post-text > a {
+    color: black;
+    font-weight: 700;
+    text-decoration: none;
+}
+
+.post > p {
+    text-align: left;
+
+    padding: 1rem;
+}
+
+.privateMessage {
+    border: 1px solid lightblue;
+    border-radius: 0.5em;
+}
+
+
+
+.isUnread {
+  width: 0.75rem;
+  height: 0.75rem;
+  background-color: red;
+  display: block;
+  border-radius: 50%;
+}
